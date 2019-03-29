@@ -449,11 +449,13 @@ function Section({ subtitle, code, title, example }: SectionProps) {
         borderRadius: 0,
         position: "relative",
         maxWidth: "45rem",
-        marginLeft: "-1.5rem",
-        marginRight: "-1.5rem",
+        marginLeft: "-1rem",
+        marginRight: "-1rem",
         boxShadow: "none",
         marginBottom: theme.spaces.lg,
         [theme.breakpoints.md]: {
+          marginLeft: "-1.5rem",
+          marginRight: "-1.5rem",
           borderRadius: theme.radii.lg,
           marginBottom: theme.spaces.xl,
           boxShadow: theme.shadows.xs
