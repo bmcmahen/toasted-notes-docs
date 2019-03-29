@@ -2,14 +2,20 @@
   "name": "toasted-notes-docs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://toasted-notes.netlify.com",
   "dependencies": {
+    "@emotion/core": "^10.0.10",
     "@types/jest": "24.0.11",
     "@types/node": "11.12.1",
+    "@types/prismjs": "^1.16.0",
     "@types/react": "16.8.10",
     "@types/react-dom": "16.8.3",
+    "prismjs": "^1.16.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
+    "sancho": "^1.0.0-beta.8",
+    "toasted-notes": "^2.1.1",
     "typescript": "3.4.1"
   },
   "scripts": {
