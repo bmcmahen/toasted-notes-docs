@@ -150,7 +150,7 @@ export function App({  }: AppProps) {
                 component="a"
                 css={{ color: "white", marginLeft: theme.spaces.md }}
                 color={"white"}
-                href="https://github.com/bmcmahen/sancho"
+                href="https://github.com/bmcmahen/toasted-notes"
                 icon={
                   <svg
                     width="24"
