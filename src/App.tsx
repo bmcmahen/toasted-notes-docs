@@ -258,7 +258,7 @@ export function App({  }: AppProps) {
                 <code className="language-javascript">
                   {`
 import toast from 'toasted-notes' 
-import 'toasted-notes/umd/main.css';
+import 'toasted-notes/src/styles.css';
 
 toast.notify('Hello world!')
                 `}
