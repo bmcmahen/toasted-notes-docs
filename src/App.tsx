@@ -195,7 +195,7 @@ export function App({  }: AppProps) {
               paddingBottom: theme.spaces.xl,
               [theme.breakpoints.md]: {
                 paddingTop: "calc(4rem + 50px)",
-                paddingBottom: "5rem"
+                paddingBottom: 0
               }
             }}
           >
