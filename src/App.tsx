@@ -17,7 +17,7 @@ import {
   Link
 } from "sancho";
 import toaster from "toasted-notes";
-import { PositionsType } from "toasted-notes/build/Message";
+import { PositionsType } from "toasted-notes/lib/Message";
 
 const NarrowContainer = ({ children }: { children: React.ReactNode }) => (
   <div css={{ maxWidth: "600px", margin: "0 auto" }}>{children}</div>
