@@ -8,6 +8,10 @@
 /* http://cbavota.bitbucket.org/syntax-highlighter/  */
 
 /* =====   ===== */
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
 code[class*="language-"],
 pre[class*="language-"] {
   color: #fff;
