@@ -206,7 +206,7 @@ export function App({  }: AppProps) {
             }}
           >
             <DarkMode>
-              <Text variant="display2">
+              <Text css={{ color: "white" }} variant="display2">
                 Easy, flexible toast notifications for React
               </Text>
               <Text css={{ maxWidth: "38rem" }} variant="lead">
